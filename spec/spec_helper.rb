@@ -20,6 +20,8 @@ RSpec.configure do |config|
 	     until levitation_force == 10
 	        puts "Wingardium Leviosa"
 	        levitation_force += 1
+	        return gem_original_require(path)
+	        
 	    end
 end
   
