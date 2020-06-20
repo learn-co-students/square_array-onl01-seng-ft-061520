@@ -1,7 +1,8 @@
-def using_until
-	     levitation_force = 6
-	     until levitation_force == 10
-	        puts "Wingardium Leviosa"
-	        levitation_force += 1
-	    end
+def square_array
+  return end
 	    
+gh pr [status, list, view, checkout, create]
+gh issue [status, list, view, create]
+gh repo [view, create, clone, fork]
+gh config [get, set]
+gh help

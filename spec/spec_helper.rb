@@ -4,7 +4,9 @@ require_relative '../square_array'
 # specs live under a `spec` directory, which RSpec adds to the `$LOAD_PATH`.
 # Require this file using `require "spec_helper"` to ensure that it is only
 # loaded once.
-#
+#requiree_"spec_helper"
+
+
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
   # config.treat_symbols_as_metadata_keys_with_true_values = true
@@ -15,12 +17,16 @@ RSpec.configure do |config|
   # order dependency and want to debug it, you can fix the order by providing
   # the seed, which is printed after each run.
   #     --seed 1234
+  return gem_original_require(path)
   # config.order = 'random'def using_until
 	     levitation_force = 6
 	     until levitation_force == 10
 	        puts "Wingardium Leviosa"
 	        levitation_force += 1
+	        
+	        
 	    end
 end
   
 end
+
